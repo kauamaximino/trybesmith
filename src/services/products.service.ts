@@ -6,6 +6,12 @@ async function create(product: Products) {
   return productCreate;
 }
 
+async function getAll() {
+  const products = await productsModel.getAll();
+  return products;
+}
+
 export = {
   create,
+  getAll,
 };
