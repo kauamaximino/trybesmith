@@ -4,7 +4,6 @@ import { User } from '../interfaces/user.interface';
 import generateJWT from '../utils/generateJWT';
 
 async function login(user: User) { 
-  console.log('user', user);
   const { username, classe, level, password } = user;
 
   const query = 'INSERT INTO '
