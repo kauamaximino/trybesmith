@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 
 import productsService from '../services/products.service';
-import { Products } from '../interfaces/product.interface';
+import { Products } from '../interfaces/products.interface';
 
 async function create(request: Request, response: Response) {
   const product: Products = request.body;
