@@ -1,7 +1,7 @@
-import OrdersModel from '../models/orders.model';
+import ordersModel from '../models/orders.model';
 
 async function getAllOrders() {
-  const { orders, products } = await OrdersModel.getAllOrders();
+  const { orders, products } = await ordersModel.getAllOrders();
 
   const ordersWithProducts = orders.map((order) => {
     const pIds = products.filter((product) => product.orderId === order.id);
