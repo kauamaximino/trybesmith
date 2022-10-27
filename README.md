@@ -1,4 +1,4 @@
-<h1 align="center">Store Manager 🏪</h1>
+<h1 align="center">Trybe Smith ⚔️🛡️</h1>
 
 <h3 align="center">Neste projeto desenvolvi uma loja de itens medievais, no formato de uma API, utilizando Typescript.<h3/>
 
